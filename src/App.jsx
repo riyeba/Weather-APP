@@ -54,7 +54,7 @@ function App() {
         try {
           setLoading(true);
           const res = await fetch(
-            `http://api.weatherapi.com/v1/current.json?key=${KEY}&q=${lat},${long}&aqi=no`
+            `https://api.weatherapi.com/v1/current.json?key=${KEY}&q=${lat},${long}&aqi=no`
           );
 
           if (!res.ok)
