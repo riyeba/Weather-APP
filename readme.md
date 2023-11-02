@@ -1,3 +1,3 @@
 # Weather App
 
-one of Taiwo AKinpennu's Projects build with tailwind css.
+one of Taiwo AKinpennu's Projects builtg with tailwind css.
