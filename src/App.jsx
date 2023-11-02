@@ -80,7 +80,7 @@ function App() {
       async function fetchforecast() {
         try {
           const res = await fetch(
-            `http://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${lat},${long}&days=${3}&aqi=no`
+            `https://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${lat},${long}&days=${3}&aqi=no`
           );
 
           if (!res.ok)
